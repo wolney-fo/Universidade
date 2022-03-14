@@ -96,9 +96,13 @@ class Empresa{
             System.out.print("CPF: ");
             String cpf = input.nextLine();
 
+            System.out.print("Salário: ");
+            double salario = input.nextDouble();
+            input.nextLine();
+
             funcionario.setNome(nome);
             funcionario.setCpf(cpf);
-            funcionario.setSalario(this.salario);
+            funcionario.setSalario(salario);
 
             nomes_funcionarios[i] = funcionario.getNome();
             cpf_funcionarios[i] = funcionario.getCpf();
@@ -164,9 +168,8 @@ public class main {
 
         empresa.setRazao_social("Banco do Brasil S.A");
         empresa.setCnpj("00.000.000/0001-91");
-        empresa.setSalario(3022.27);
 
-        System.out.printf("%s\n----------------------\nSetor: RH\nFunção: Listar novos funcionários\nSalário: R$%.2f\n\n", empresa.getRazao_social(), empresa.getSalario());
+        System.out.printf("%s\n----------------------\nSetor: RH\nFunção: Listar novos funcionários\n\n", empresa.getRazao_social());
 
         empresa.adicionar_funcionario();
         empresa.listar_funcionarios();
