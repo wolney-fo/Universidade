@@ -6,7 +6,7 @@ Bem vindo ao meu repositório dedicado aos meus trabalhos feitos durante a minha
 ## 1º Período 🤓
 Estudando os fundamentos para iniciar na programação utilizando Python.
 
-```md
+``` Python
 print('Hello World')
 ```
 
@@ -16,7 +16,7 @@ Matérias:
 ## 2º Período 🐍
 Começando a avançar na programação introduzindo POO em Python
 
-```
+``` Python
 class Pessoa:
 ```
 
@@ -26,7 +26,7 @@ Matérias:
 ## 3º Período 🧐☕
 Desenvolvendo no intermediário da programação, agora em Java e estudando o uso da estatística no meio computacional
 
-```
+``` Java
 public class HelloWorld{
     public static void main(String[] args){
         System.out.println("Hello World");
@@ -34,7 +34,7 @@ public class HelloWorld{
 }
 ```
 
-```
+``` R
 library(readxl)
 library(ggplot2)
 
